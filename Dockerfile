@@ -1,4 +1,4 @@
-FROM docker:20.10.8-alpine3.15
+FROM docker:20.10.13-alpine3.15
 
 RUN apk update && apk upgrade && apk add --no-cache curl jq python3 python3-dev build-base libffi-dev libressl-dev gettext git
 RUN curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
