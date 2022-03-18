@@ -9,4 +9,3 @@ RUN curl -O https://bootstrap.pypa.io/get-pip.py
 RUN python3 get-pip.py
 RUN pip install cryptography
 RUN pip install docker-compose
-RUN npm install -g pnpm
